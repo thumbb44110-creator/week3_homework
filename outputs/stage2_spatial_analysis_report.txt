@@ -1,0 +1,39 @@
+=== Week 3 Stage 2 Multi-Level Buffer & Spatial Join Report ===
+
+Processing Time: 2026-03-15 17:58:08.615034
+
+Multi-Level Buffer Creation:
+  High Risk (500m): 1,000 buffer zones
+  Medium Risk (1km): 1,000 buffer zones
+  Low Risk (2km): 1,000 buffer zones
+
+Spatial Join Results:
+  high_risk: 21 shelters
+  medium_risk: 40 shelters
+  low_risk: 59 shelters
+
+Risk Statistics:
+  high_risk:
+    Count: 21 (21.0%)
+    Total Capacity: 5,936
+  medium_risk:
+    Count: 40 (40.0%)
+    Total Capacity: 10,429
+  low_risk:
+    Count: 59 (59.0%)
+    Total Capacity: 15,144
+  safe:
+    Count: 41 (41.0%)
+    Total Capacity: 11,876
+
+Technical Parameters:
+  Buffer Distances: 500m / 1km / 2km
+  Spatial Join Method: gpd.sjoin(predicate='within')
+  CRS: EPSG:3826 (TWD97)
+  One-to-Many Handling: Deduplication by shelter name
+
+File Paths:
+  Buffer Data: outputs/buffers/
+  Risk Analysis: outputs/shelters_with_risk.geojson
+  Report: outputs/stage2_spatial_analysis_report.txt
+  Map: outputs/multi_level_risk_map.png

@@ -1,0 +1,1002 @@
+[
+  {
+    "shelter_id": "shelter_000",
+    "name": "避難所_001",
+    "risk_level": "low_risk",
+    "capacity": 156,
+    "longitude": 297865.45380722824,
+    "latitude": 2786376.906871004,
+    "address": "台北市地址_1號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_001",
+    "name": "避難所_002",
+    "risk_level": "low_risk",
+    "capacity": 171,
+    "longitude": 306081.00735669537,
+    "latitude": 2774649.216932222,
+    "address": "台北市地址_2號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_002",
+    "name": "避難所_003",
+    "risk_level": "safe",
+    "capacity": 137,
+    "longitude": 293554.5271205259,
+    "latitude": 2756700.517836853,
+    "address": "台北市地址_3號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_003",
+    "name": "避難所_004",
+    "risk_level": "safe",
+    "capacity": 180,
+    "longitude": 297135.0108575612,
+    "latitude": 2759529.6272656815,
+    "address": "台北市地址_4號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_004",
+    "name": "避難所_005",
+    "risk_level": "low_risk",
+    "capacity": 463,
+    "longitude": 290728.49730717967,
+    "latitude": 2786991.4816016033,
+    "address": "台北市地址_5號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_005",
+    "name": "避難所_006",
+    "risk_level": "safe",
+    "capacity": 326,
+    "longitude": 294679.40453461534,
+    "latitude": 2760815.96331986,
+    "address": "台北市地址_6號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_006",
+    "name": "避難所_007",
+    "risk_level": "low_risk",
+    "capacity": 302,
+    "longitude": 302806.4218083634,
+    "latitude": 2775128.050296205,
+    "address": "台北市地址_7號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_007",
+    "name": "避難所_008",
+    "risk_level": "safe",
+    "capacity": 108,
+    "longitude": 299101.503843127,
+    "latitude": 2764466.5429918924,
+    "address": "台北市地址_8號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_008",
+    "name": "避難所_009",
+    "risk_level": "safe",
+    "capacity": 237,
+    "longitude": 298482.4283528289,
+    "latitude": 2756337.616243047,
+    "address": "台北市地址_9號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_009",
+    "name": "避難所_010",
+    "risk_level": "low_risk",
+    "capacity": 224,
+    "longitude": 297758.21470855316,
+    "latitude": 2769939.4093698906,
+    "address": "台北市地址_10號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_010",
+    "name": "避難所_011",
+    "risk_level": "low_risk",
+    "capacity": 293,
+    "longitude": 302854.14287505345,
+    "latitude": 2767512.176631479,
+    "address": "台北市地址_11號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_011",
+    "name": "避難所_012",
+    "risk_level": "safe",
+    "capacity": 356,
+    "longitude": 302372.5248711668,
+    "latitude": 2756344.742484358,
+    "address": "台北市地址_12號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_012",
+    "name": "避難所_013",
+    "risk_level": "safe",
+    "capacity": 323,
+    "longitude": 304095.15197882574,
+    "latitude": 2769777.9153382946,
+    "address": "台北市地址_13號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_013",
+    "name": "避難所_014",
+    "risk_level": "low_risk",
+    "capacity": 291,
+    "longitude": 309441.0469115392,
+    "latitude": 2786918.408122572,
+    "address": "台北市地址_14號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_014",
+    "name": "避難所_015",
+    "risk_level": "safe",
+    "capacity": 435,
+    "longitude": 298194.1918295786,
+    "latitude": 2755316.482272506,
+    "address": "台北市地址_15號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_015",
+    "name": "避難所_016",
+    "risk_level": "safe",
+    "capacity": 477,
+    "longitude": 304175.74262439413,
+    "latitude": 2769434.410250763,
+    "address": "台北市地址_16號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_016",
+    "name": "避難所_017",
+    "risk_level": "safe",
+    "capacity": 255,
+    "longitude": 300409.5460830949,
+    "latitude": 2755936.5899280524,
+    "address": "台北市地址_17號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_017",
+    "name": "避難所_018",
+    "risk_level": "safe",
+    "capacity": 437,
+    "longitude": 298288.78763219947,
+    "latitude": 2760841.859736617,
+    "address": "台北市地址_18號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_018",
+    "name": "避難所_019",
+    "risk_level": "safe",
+    "capacity": 155,
+    "longitude": 296647.96522854746,
+    "latitude": 2772062.2176107964,
+    "address": "台北市地址_19號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_019",
+    "name": "避難所_020",
+    "risk_level": "safe",
+    "capacity": 451,
+    "longitude": 301875.1326908139,
+    "latitude": 2755839.8565748334,
+    "address": "台北市地址_20號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_020",
+    "name": "避難所_021",
+    "risk_level": "low_risk",
+    "capacity": 495,
+    "longitude": 305942.1996457921,
+    "latitude": 2786035.102717367,
+    "address": "台北市地址_21號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_021",
+    "name": "避難所_022",
+    "risk_level": "low_risk",
+    "capacity": 320,
+    "longitude": 309027.4068787137,
+    "latitude": 2778995.6657925653,
+    "address": "台北市地址_22號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_022",
+    "name": "避難所_023",
+    "risk_level": "safe",
+    "capacity": 239,
+    "longitude": 292176.777475741,
+    "latitude": 2761278.493700874,
+    "address": "台北市地址_23號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_023",
+    "name": "避難所_024",
+    "risk_level": "safe",
+    "capacity": 387,
+    "longitude": 296937.78952938877,
+    "latitude": 2767697.1227871734,
+    "address": "台北市地址_24號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_024",
+    "name": "避難所_025",
+    "risk_level": "low_risk",
+    "capacity": 266,
+    "longitude": 301240.1414610304,
+    "latitude": 2774294.5747075467,
+    "address": "台北市地址_25號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_025",
+    "name": "避難所_026",
+    "risk_level": "low_risk",
+    "capacity": 90,
+    "longitude": 296024.3812728727,
+    "latitude": 2772812.028231612,
+    "address": "台北市地址_26號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_026",
+    "name": "避難所_027",
+    "risk_level": "safe",
+    "capacity": 394,
+    "longitude": 296376.3894193683,
+    "latitude": 2760271.3840663107,
+    "address": "台北市地址_27號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_027",
+    "name": "避難所_028",
+    "risk_level": "low_risk",
+    "capacity": 185,
+    "longitude": 310235.5511227608,
+    "latitude": 2780495.445215505,
+    "address": "台北市地址_28號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_028",
+    "name": "避難所_029",
+    "risk_level": "low_risk",
+    "capacity": 130,
+    "longitude": 290440.1647836471,
+    "latitude": 2781858.2805914464,
+    "address": "台北市地址_29號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_029",
+    "name": "避難所_030",
+    "risk_level": "low_risk",
+    "capacity": 428,
+    "longitude": 304676.2199263756,
+    "latitude": 2781067.8146077855,
+    "address": "台北市地址_30號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_030",
+    "name": "避難所_031",
+    "risk_level": "safe",
+    "capacity": 90,
+    "longitude": 291868.4926320856,
+    "latitude": 2766676.7475169823,
+    "address": "台北市地址_31號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_031",
+    "name": "避難所_032",
+    "risk_level": "low_risk",
+    "capacity": 317,
+    "longitude": 308773.8089710914,
+    "latitude": 2783074.210113332,
+    "address": "台北市地址_32號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_032",
+    "name": "避難所_033",
+    "risk_level": "safe",
+    "capacity": 456,
+    "longitude": 297087.281903184,
+    "latitude": 2756894.0953640314,
+    "address": "台北市地址_33號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_033",
+    "name": "避難所_034",
+    "risk_level": "low_risk",
+    "capacity": 221,
+    "longitude": 303835.47431341413,
+    "latitude": 2776935.4623350557,
+    "address": "台北市地址_34號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_034",
+    "name": "避難所_035",
+    "risk_level": "safe",
+    "capacity": 498,
+    "longitude": 303175.65557290387,
+    "latitude": 2784286.4723779587,
+    "address": "台北市地址_35號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_035",
+    "name": "避難所_036",
+    "risk_level": "low_risk",
+    "capacity": 180,
+    "longitude": 298032.0444827604,
+    "latitude": 2787075.2633980545,
+    "address": "台北市地址_36號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_036",
+    "name": "避難所_037",
+    "risk_level": "low_risk",
+    "capacity": 304,
+    "longitude": 305704.3948667804,
+    "latitude": 2773465.5686605414,
+    "address": "台北市地址_37號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_037",
+    "name": "避難所_038",
+    "risk_level": "safe",
+    "capacity": 256,
+    "longitude": 295578.1498056706,
+    "latitude": 2756120.5872837687,
+    "address": "台北市地址_38號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_038",
+    "name": "避難所_039",
+    "risk_level": "safe",
+    "capacity": 228,
+    "longitude": 299044.15424728283,
+    "latitude": 2755633.60160181,
+    "address": "台北市地址_39號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_039",
+    "name": "避難所_040",
+    "risk_level": "low_risk",
+    "capacity": 101,
+    "longitude": 290980.48025982105,
+    "latitude": 2775910.0495212097,
+    "address": "台北市地址_40號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_040",
+    "name": "避難所_041",
+    "risk_level": "low_risk",
+    "capacity": 456,
+    "longitude": 301702.2483004798,
+    "latitude": 2777910.608856228,
+    "address": "台北市地址_41號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_041",
+    "name": "避難所_042",
+    "risk_level": "low_risk",
+    "capacity": 78,
+    "longitude": 302552.0481563803,
+    "latitude": 2772740.7345150015,
+    "address": "台北市地址_42號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_042",
+    "name": "避難所_043",
+    "risk_level": "safe",
+    "capacity": 236,
+    "longitude": 295023.23740613274,
+    "latitude": 2757333.162121916,
+    "address": "台北市地址_43號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_043",
+    "name": "避難所_044",
+    "risk_level": "safe",
+    "capacity": 219,
+    "longitude": 304330.3335746591,
+    "latitude": 2784066.9040663633,
+    "address": "台北市地址_44號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_044",
+    "name": "避難所_045",
+    "risk_level": "low_risk",
+    "capacity": 183,
+    "longitude": 306649.54148889956,
+    "latitude": 2775866.262355147,
+    "address": "台北市地址_45號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_045",
+    "name": "避難所_046",
+    "risk_level": "safe",
+    "capacity": 389,
+    "longitude": 299606.7378443675,
+    "latitude": 2762049.6198884165,
+    "address": "台北市地址_46號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_046",
+    "name": "避難所_047",
+    "risk_level": "low_risk",
+    "capacity": 397,
+    "longitude": 308366.3745107832,
+    "latitude": 2772747.7877429468,
+    "address": "台北市地址_47號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_047",
+    "name": "避難所_048",
+    "risk_level": "low_risk",
+    "capacity": 434,
+    "longitude": 297502.8278151464,
+    "latitude": 2784917.2846269873,
+    "address": "台北市地址_48號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_048",
+    "name": "避難所_049",
+    "risk_level": "safe",
+    "capacity": 165,
+    "longitude": 294967.5993516929,
+    "latitude": 2768967.5340068266,
+    "address": "台北市地址_49號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_049",
+    "name": "避難所_050",
+    "risk_level": "safe",
+    "capacity": 247,
+    "longitude": 297497.2956788591,
+    "latitude": 2764911.215963636,
+    "address": "台北市地址_50號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_050",
+    "name": "避難所_051",
+    "risk_level": "low_risk",
+    "capacity": 214,
+    "longitude": 300677.0309287654,
+    "latitude": 2768665.288214205,
+    "address": "台北市地址_51號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_051",
+    "name": "避難所_052",
+    "risk_level": "low_risk",
+    "capacity": 201,
+    "longitude": 304363.84791006165,
+    "latitude": 2763761.4539093585,
+    "address": "台北市地址_52號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_052",
+    "name": "避難所_053",
+    "risk_level": "low_risk",
+    "capacity": 145,
+    "longitude": 309413.5961691197,
+    "latitude": 2765569.903517933,
+    "address": "台北市地址_53號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_053",
+    "name": "避難所_054",
+    "risk_level": "low_risk",
+    "capacity": 367,
+    "longitude": 301634.560289193,
+    "latitude": 2768217.7804222475,
+    "address": "台北市地址_54號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_054",
+    "name": "避難所_055",
+    "risk_level": "low_risk",
+    "capacity": 344,
+    "longitude": 309903.0532370803,
+    "latitude": 2786814.607534456,
+    "address": "台北市地址_55號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_055",
+    "name": "避難所_056",
+    "risk_level": "safe",
+    "capacity": 162,
+    "longitude": 300418.8361845557,
+    "latitude": 2764791.9699634523,
+    "address": "台北市地址_56號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_056",
+    "name": "避難所_057",
+    "risk_level": "low_risk",
+    "capacity": 51,
+    "longitude": 310528.8737305223,
+    "latitude": 2763699.8721487843,
+    "address": "台北市地址_57號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_057",
+    "name": "避難所_058",
+    "risk_level": "safe",
+    "capacity": 273,
+    "longitude": 300559.02236989426,
+    "latitude": 2756505.0376860206,
+    "address": "台北市地址_58號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_058",
+    "name": "避難所_059",
+    "risk_level": "low_risk",
+    "capacity": 179,
+    "longitude": 308726.0837806367,
+    "latitude": 2762787.528245757,
+    "address": "台北市地址_59號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_059",
+    "name": "避難所_060",
+    "risk_level": "low_risk",
+    "capacity": 247,
+    "longitude": 301080.7261754445,
+    "latitude": 2769676.057136129,
+    "address": "台北市地址_60號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_060",
+    "name": "避難所_061",
+    "risk_level": "low_risk",
+    "capacity": 252,
+    "longitude": 295225.6005403014,
+    "latitude": 2777110.622078048,
+    "address": "台北市地址_61號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_061",
+    "name": "避難所_062",
+    "risk_level": "safe",
+    "capacity": 343,
+    "longitude": 297849.52068221907,
+    "latitude": 2762831.5608461536,
+    "address": "台北市地址_62號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_062",
+    "name": "避難所_063",
+    "risk_level": "low_risk",
+    "capacity": 247,
+    "longitude": 297766.39508769417,
+    "latitude": 2775795.748996952,
+    "address": "台北市地址_63號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_063",
+    "name": "避難所_064",
+    "risk_level": "low_risk",
+    "capacity": 193,
+    "longitude": 298370.86780466,
+    "latitude": 2781916.433034746,
+    "address": "台北市地址_64號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_064",
+    "name": "避難所_065",
+    "risk_level": "low_risk",
+    "capacity": 375,
+    "longitude": 307241.4337046458,
+    "latitude": 2765480.1340834023,
+    "address": "台北市地址_65號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_065",
+    "name": "避難所_066",
+    "risk_level": "safe",
+    "capacity": 301,
+    "longitude": 304353.996674469,
+    "latitude": 2783332.2991547943,
+    "address": "台北市地址_66號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_066",
+    "name": "避難所_067",
+    "risk_level": "safe",
+    "capacity": 500,
+    "longitude": 304096.6780179353,
+    "latitude": 2755359.1017932375,
+    "address": "台北市地址_67號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_067",
+    "name": "避難所_068",
+    "risk_level": "low_risk",
+    "capacity": 248,
+    "longitude": 306716.68107860733,
+    "latitude": 2766404.602877638,
+    "address": "台北市地址_68號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_068",
+    "name": "避難所_069",
+    "risk_level": "low_risk",
+    "capacity": 177,
+    "longitude": 293858.1864294629,
+    "latitude": 2777730.946936982,
+    "address": "台北市地址_69號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_069",
+    "name": "避難所_070",
+    "risk_level": "low_risk",
+    "capacity": 316,
+    "longitude": 300766.3560823647,
+    "latitude": 2782632.2535676467,
+    "address": "台北市地址_70號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_070",
+    "name": "避難所_071",
+    "risk_level": "safe",
+    "capacity": 200,
+    "longitude": 297286.98618187034,
+    "latitude": 2758553.4291066355,
+    "address": "台北市地址_71號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_071",
+    "name": "避難所_072",
+    "risk_level": "low_risk",
+    "capacity": 312,
+    "longitude": 301261.93626114656,
+    "latitude": 2777917.860302604,
+    "address": "台北市地址_72號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_072",
+    "name": "避難所_073",
+    "risk_level": "low_risk",
+    "capacity": 109,
+    "longitude": 303636.98482141254,
+    "latitude": 2781962.4532130677,
+    "address": "台北市地址_73號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_073",
+    "name": "避難所_074",
+    "risk_level": "low_risk",
+    "capacity": 303,
+    "longitude": 295568.178991236,
+    "latitude": 2787882.292315693,
+    "address": "台北市地址_74號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_074",
+    "name": "避難所_075",
+    "risk_level": "low_risk",
+    "capacity": 58,
+    "longitude": 308408.8346609967,
+    "latitude": 2784746.795735869,
+    "address": "台北市地址_75號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_075",
+    "name": "避難所_076",
+    "risk_level": "low_risk",
+    "capacity": 257,
+    "longitude": 295965.0805125292,
+    "latitude": 2778050.925835138,
+    "address": "台北市地址_76號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_076",
+    "name": "避難所_077",
+    "risk_level": "low_risk",
+    "capacity": 169,
+    "longitude": 308408.613098838,
+    "latitude": 2784303.771257859,
+    "address": "台北市地址_77號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_077",
+    "name": "避難所_078",
+    "risk_level": "low_risk",
+    "capacity": 162,
+    "longitude": 308225.45170478075,
+    "latitude": 2783101.4206224685,
+    "address": "台北市地址_78號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_078",
+    "name": "避難所_079",
+    "risk_level": "low_risk",
+    "capacity": 389,
+    "longitude": 293579.1419441477,
+    "latitude": 2784629.1689986777,
+    "address": "台北市地址_79號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_079",
+    "name": "避難所_080",
+    "risk_level": "low_risk",
+    "capacity": 148,
+    "longitude": 302094.42662850954,
+    "latitude": 2767171.0062984,
+    "address": "台北市地址_80號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_080",
+    "name": "避難所_081",
+    "risk_level": "low_risk",
+    "capacity": 415,
+    "longitude": 310040.2217715984,
+    "latitude": 2764267.2868260588,
+    "address": "台北市地址_81號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_081",
+    "name": "避難所_082",
+    "risk_level": "low_risk",
+    "capacity": 257,
+    "longitude": 301409.38422772224,
+    "latitude": 2777789.176651542,
+    "address": "台北市地址_82號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_082",
+    "name": "避難所_083",
+    "risk_level": "safe",
+    "capacity": 117,
+    "longitude": 310475.90352061647,
+    "latitude": 2760680.481524796,
+    "address": "台北市地址_83號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_083",
+    "name": "避難所_084",
+    "risk_level": "safe",
+    "capacity": 453,
+    "longitude": 295166.7497162694,
+    "latitude": 2765588.469678037,
+    "address": "台北市地址_84號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_084",
+    "name": "避難所_085",
+    "risk_level": "low_risk",
+    "capacity": 244,
+    "longitude": 297726.8506814986,
+    "latitude": 2779512.8918111334,
+    "address": "台北市地址_85號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_085",
+    "name": "避難所_086",
+    "risk_level": "low_risk",
+    "capacity": 492,
+    "longitude": 303621.7312159232,
+    "latitude": 2773690.8791431757,
+    "address": "台北市地址_86號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_086",
+    "name": "避難所_087",
+    "risk_level": "safe",
+    "capacity": 287,
+    "longitude": 297807.70152001467,
+    "latitude": 2763597.1050254665,
+    "address": "台北市地址_87號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_087",
+    "name": "避難所_088",
+    "risk_level": "low_risk",
+    "capacity": 100,
+    "longitude": 302202.51274387614,
+    "latitude": 2787329.2926665666,
+    "address": "台北市地址_88號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_088",
+    "name": "避難所_089",
+    "risk_level": "low_risk",
+    "capacity": 275,
+    "longitude": 308342.9827270741,
+    "latitude": 2775798.1349029555,
+    "address": "台北市地址_89號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_089",
+    "name": "避難所_090",
+    "risk_level": "low_risk",
+    "capacity": 416,
+    "longitude": 297407.7448118729,
+    "latitude": 2776219.7596565923,
+    "address": "台北市地址_90號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_090",
+    "name": "避難所_091",
+    "risk_level": "safe",
+    "capacity": 366,
+    "longitude": 300336.2156001787,
+    "latitude": 2761281.436706592,
+    "address": "台北市地址_91號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_091",
+    "name": "避難所_092",
+    "risk_level": "low_risk",
+    "capacity": 241,
+    "longitude": 300424.8478314096,
+    "latitude": 2773801.4919305355,
+    "address": "台北市地址_92號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_092",
+    "name": "避難所_093",
+    "risk_level": "safe",
+    "capacity": 269,
+    "longitude": 303427.5256950893,
+    "latitude": 2760690.60221971,
+    "address": "台北市地址_93號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_093",
+    "name": "避難所_094",
+    "risk_level": "safe",
+    "capacity": 55,
+    "longitude": 299870.14631925133,
+    "latitude": 2764081.5700527197,
+    "address": "台北市地址_94號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_094",
+    "name": "避難所_095",
+    "risk_level": "safe",
+    "capacity": 329,
+    "longitude": 297885.9824899748,
+    "latitude": 2755298.4701625616,
+    "address": "台北市地址_95號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_095",
+    "name": "避難所_096",
+    "risk_level": "low_risk",
+    "capacity": 144,
+    "longitude": 297028.4184487291,
+    "latitude": 2773150.03998913,
+    "address": "台北市地址_96號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_096",
+    "name": "避難所_097",
+    "risk_level": "low_risk",
+    "capacity": 240,
+    "longitude": 309754.5260844526,
+    "latitude": 2783177.2126914496,
+    "address": "台北市地址_97號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_097",
+    "name": "避難所_098",
+    "risk_level": "safe",
+    "capacity": 210,
+    "longitude": 296563.8194066464,
+    "latitude": 2761124.1572812586,
+    "address": "台北市地址_98號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_098",
+    "name": "避難所_099",
+    "risk_level": "safe",
+    "capacity": 330,
+    "longitude": 296792.9409625486,
+    "latitude": 2760413.2199301044,
+    "address": "台北市地址_99號",
+    "district": "N/A"
+  },
+  {
+    "shelter_id": "shelter_099",
+    "name": "避難所_100",
+    "risk_level": "low_risk",
+    "capacity": 372,
+    "longitude": 298284.2480217942,
+    "latitude": 2782839.3070828062,
+    "address": "台北市地址_100號",
+    "district": "N/A"
+  }
+]

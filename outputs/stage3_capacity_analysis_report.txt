@@ -1,0 +1,98 @@
+=== Week 3 Stage 3 District Statistics & Capacity Analysis Report ===
+
+Processing Time: 2026-03-15 18:00:44.462315
+
+Overall Analysis Summary:
+  Number of Districts: 5
+  Total Evacuation Demand: 3,028.8 people
+  Total Safe Capacity: 11,876 people
+  Total Capacity Gap: 8,847.2 people
+  Overall Gap Percentage: 292.1%
+
+District Risk Distribution:
+  低風險: 5 districts (100.0%)
+  中風險: 0 districts (0.0%)
+  高風險: 0 districts (0.0%)
+
+Detailed District Statistics:
+--------------------------------------------------------------------------------
+
+北區:
+  Total Shelters: 0
+  Total Capacity: 0
+  High Risk Shelters: 0 (0.0%)
+  Medium Risk Shelters: 0 (0.0%)
+  Low Risk Shelters: 0 (0.0%)
+  Safe Shelters: 0 (0.0%)
+  Evacuation Demand: 0.0 people
+  Safe Capacity: 0 people
+  Capacity Gap: 0.0 people
+  Gap Percentage: 0.0%
+  Risk Level: 低風險
+
+中區:
+  Total Shelters: 0
+  Total Capacity: 0
+  High Risk Shelters: 0 (0.0%)
+  Medium Risk Shelters: 0 (0.0%)
+  Low Risk Shelters: 0 (0.0%)
+  Safe Shelters: 0 (0.0%)
+  Evacuation Demand: 0.0 people
+  Safe Capacity: 0 people
+  Capacity Gap: 0.0 people
+  Gap Percentage: 0.0%
+  Risk Level: 低風險
+
+南區:
+  Total Shelters: 0
+  Total Capacity: 0
+  High Risk Shelters: 0 (0.0%)
+  Medium Risk Shelters: 0 (0.0%)
+  Low Risk Shelters: 0 (0.0%)
+  Safe Shelters: 0 (0.0%)
+  Evacuation Demand: 0.0 people
+  Safe Capacity: 0 people
+  Capacity Gap: 0.0 people
+  Gap Percentage: 0.0%
+  Risk Level: 低風險
+
+東區:
+  Total Shelters: 0
+  Total Capacity: 0
+  High Risk Shelters: 0 (0.0%)
+  Medium Risk Shelters: 0 (0.0%)
+  Low Risk Shelters: 0 (0.0%)
+  Safe Shelters: 0 (0.0%)
+  Evacuation Demand: 0.0 people
+  Safe Capacity: 0 people
+  Capacity Gap: 0.0 people
+  Gap Percentage: 0.0%
+  Risk Level: 低風險
+
+西區:
+  Total Shelters: 100
+  Total Capacity: 27,020
+  High Risk Shelters: 0 (0.0%)
+  Medium Risk Shelters: 0 (0.0%)
+  Low Risk Shelters: 59 (59.0%)
+  Safe Shelters: 41 (41.0%)
+  Evacuation Demand: 3,028.8 people
+  Safe Capacity: 11,876 people
+  Capacity Gap: 8,847.2 people
+  Gap Percentage: 292.1%
+  Risk Level: 低風險
+
+High Risk District Priority Recommendations:
+--------------------------------------------------------------------------------
+
+Technical Parameters:
+  Evacuation Demand Calculation: High Risk 100%, Medium Risk 50%, Low Risk 20%
+  Spatial Assignment: gpd.sjoin(predicate='within')
+  Capacity Analysis: Safe Capacity vs Evacuation Demand
+  Risk Assessment: Based on capacity gap percentage
+
+File Paths:
+  District Statistics: outputs/admin_boundaries_with_stats.geojson
+  Analysis Results: outputs/stage3_capacity_analysis_report.txt
+  Risk Map: outputs/district_risk_analysis.png
+  Statistical Charts: outputs/capacity_analysis_charts.png

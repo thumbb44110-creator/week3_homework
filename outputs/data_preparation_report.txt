@@ -1,0 +1,22 @@
+=== Week 3 階段 1 資料準備報告 ===
+
+處理時間: 2026-03-15 17:41:14.773267
+
+河川資料:
+  資料筆數: 13262
+  CRS: EPSG:3826
+  幾何類型: ['Polygon' 'MultiPolygon']
+
+避難所資料:
+  資料筆數: 100
+  CRS: EPSG:3826
+  幾何類型: ['Point']
+  總收容人數: 27,020
+
+空間範圍:
+  河川: X[153837.37, 351449.98], Y[2422957.34, 2798615.14]
+  避難所: X[290440.16, 310528.87], Y[2755298.47, 2787882.29]
+
+檔案路徑:
+  河川資料: D:\114學年\遙測\windsurf_project\week3_homework\data\rivers_original.geojson
+  避難所資料: D:\114學年\遙測\windsurf_project\week3_homework\data\shelters_clean.geojson
