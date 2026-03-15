@@ -1,0 +1,14 @@
+{
+  "total_shelters": 5888,
+  "total_capacity": 2294698,
+  "safe_capacity": 1311225,
+  "high_risk_capacity": 983473,
+  "safe_capacity_ratio": 0.5714150620255911,
+  "risk_capacity_breakdown": {
+    "high_risk": 983473,
+    "medium_risk": 533365,
+    "low_risk": 571704,
+    "safe": 206156
+  },
+  "analysis_timestamp": "2026-03-15T20:17:57.754523"
+}

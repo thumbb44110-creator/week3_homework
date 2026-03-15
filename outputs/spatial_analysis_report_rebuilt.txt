@@ -1,0 +1,32 @@
+=== Week 3 階段 2 空間分析報告 (完全重建版) ===
+
+分析時間: 2026-03-15 20:17:57.768684
+
+河川緩衝區分析:
+  high_risk: 1 個區塊
+  medium_risk: 1 個區塊
+  low_risk: 1 個區塊
+
+避難所風險分級:
+  high_risk: 2568 個避難所
+  medium_risk: 1360 個避難所
+  low_risk: 1164 個避難所
+  safe: 796 個避難所
+
+容量分析結果:
+  總避難所數量: 5888
+  總收容容量: 2,294,698 人
+  安全容量: 1,311,225 人
+  高風險容量: 983,473 人
+  安全容量比例: 57.1%
+
+風險指標:
+  高風險比例: 43.6%
+  安全比例: 13.5%
+  整體風險等級: HIGH
+
+輸出檔案:
+  河川緩衝區: D:\114學年\遙測\windsurf_project\week3_homework\data\river_buffers_rebuilt.geojson
+  風險分級避難所: D:\114學年\遙測\windsurf_project\week3_homework\data\shelters_with_risk_rebuilt.geojson
+  容量分析: D:\114學年\遙測\windsurf_project\week3_homework\outputs\capacity_analysis_rebuilt.json
+  風險統計: D:\114學年\遙測\windsurf_project\week3_homework\outputs\risk_statistics_rebuilt.json

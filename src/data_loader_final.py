@@ -26,34 +26,87 @@ class DataLoader:
         self.data_dir.mkdir(exist_ok=True)
         
     def download_river_data(self):
-        """下載水利署河川資料 (最終版)"""
-        logger.info("開始下載水利署河川資料...")
+        """下載水利署河川資料 (直接從URL)"""
+        logger.info("從水利署URL直接載入河川資料...")
         
         try:
-            # 檢查是否已經有解壓縮的檔案
-            shp_path = self.data_dir / "riverpoly" / "riverpoly.shp"
+            # 直接從水利署URL載入河川資料
+            url = 'https://gic.wra.gov.tw/Gis/gic/API/Google/DownLoad.aspx?fname=RIVERPOLY&filetype=SHP'
+            logger.info(f"嘗試載入河川資料: {url}")
             
+            # 下載ZIP檔案
+            import requests
+            import zipfile
+            import tempfile
+            
+            response = requests.get(url)
+            response.raise_for_status()
+            
+            # 創建臨時檔案
+            with tempfile.NamedTemporaryFile(delete=False, suffix='.zip') as tmp_file:
+                tmp_file.write(response.content)
+                tmp_file_path = tmp_file.name
+            
+            # 解壓縮到data目錄
+            with zipfile.ZipFile(tmp_file_path, 'r') as zip_ref:
+                zip_ref.extractall(self.data_dir)
+            
+            logger.info(f"河川ZIP檔案下載並解壓縮完成")
+            
+            # 讀取解壓縮後的Shapefile
+            shp_path = self.data_dir / "riverpoly" / "riverpoly.shp"
             if shp_path.exists():
-                logger.info("發現已解壓縮的 Shapefile，直接讀取...")
                 rivers = gpd.read_file(shp_path)
                 logger.info(f"河川資料讀取成功: {len(rivers)} 筆")
                 logger.info(f"CRS: {rivers.crs}")
                 logger.info(f"幾何類型: {rivers.geom_type.unique()}")
                 
-                # 保存為 GeoJSON
+                # 保存為 GeoJSON (備用)
                 output_path = self.data_dir / "rivers_original.geojson"
                 rivers.to_file(output_path, driver='GeoJSON')
                 logger.info(f"河川資料已保存: {output_path}")
                 
                 return rivers
             else:
-                logger.error("找不到解壓縮的 Shapefile")
+                logger.error("解壓縮後找不到Shapefile")
                 return None
                 
         except Exception as e:
-            logger.error(f"河川資料讀取失敗: {e}")
+            logger.error(f"河川資料載入失敗: {e}")
             return None
     
+    def download_real_shelter_data(self):
+        """從data.gov.tw下載真實避難所資料"""
+        logger.info("從data.gov.tw下載避難所資料...")
+        
+        try:
+            # 從政府開放平台下載真實資料
+            url = 'https://data.gov.tw/dataset/73242'
+            logger.info(f"嘗試從政府平台下載: {url}")
+            
+            # 下載CSV檔案
+            import requests
+            response = requests.get(url)
+            response.raise_for_status()
+            
+            # 保存到本地
+            shelter_csv_path = self.data_dir / "避難收容處所.csv"
+            with open(shelter_csv_path, 'wb') as f:
+                f.write(response.content)
+            
+            logger.info(f"避難所資料下載成功: {shelter_csv_path}")
+            
+            # 讀取並處理
+            shelters_df = pd.read_csv(shelter_csv_path, encoding='utf-8')
+            logger.info(f"避難所資料讀取成功: {len(shelters_df)} 筆")
+            logger.info(f"欄位: {list(shelters_df.columns)}")
+            
+            return shelters_df
+            
+        except Exception as e:
+            logger.error(f"避難所資料下載失敗: {e}")
+            return None
+
     def load_shelter_data(self):
         """載入消防署避難所資料"""
         logger.info("開始載入消防署避難所資料...")
@@ -283,10 +336,10 @@ class DataLoader:
             logger.error("河川資料下載失敗，停止執行")
             return False, None, None
         
-        # 2. 載入避難所資料
-        shelters_df = self.load_shelter_data()
+        # 2. 下載真實避難所資料
+        shelters_df = self.download_real_shelter_data()
         if shelters_df is None:
-            logger.error("避難所資料載入失敗，停止執行")
+            logger.error("避難所資料下載失敗，停止執行")
             return False, None, None
         
         # 3. 清理避難所資料
@@ -305,7 +358,7 @@ class DataLoader:
         self.generate_data_report(rivers_aligned, shelters_aligned)
         
         if spatial_valid:
-            logger.info("[SUCCESS] 資料準備階段完成")
+            logger.info("[SUCCESS] 資料準備階段完成 - 使用真實政府資料")
             return True, rivers_aligned, shelters_aligned
         else:
             logger.error("[ERROR] 空間範圍驗證失敗")

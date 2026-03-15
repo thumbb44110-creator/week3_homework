@@ -1,0 +1,37 @@
+{
+  "analysis_timestamp": "2026-03-15T20:17:57.760929",
+  "total_shelters": 5888,
+  "risk_distribution": {
+    "high_risk": 2568,
+    "medium_risk": 1360,
+    "low_risk": 1164,
+    "safe": 796
+  },
+  "detailed_risk_stats": {
+    "high_risk": {
+      "count": 2568,
+      "capacity": 983473,
+      "avg_capacity": 382.97235202492215
+    },
+    "medium_risk": {
+      "count": 1360,
+      "capacity": 533365,
+      "avg_capacity": 392.18014705882354
+    },
+    "low_risk": {
+      "count": 1164,
+      "capacity": 571704,
+      "avg_capacity": 491.1546391752577
+    },
+    "safe": {
+      "count": 796,
+      "capacity": 206156,
+      "avg_capacity": 258.9899497487437
+    }
+  },
+  "risk_indicators": {
+    "high_risk_ratio": 0.4361413043478261,
+    "safe_ratio": 0.13519021739130435,
+    "risk_level": "HIGH"
+  }
+}
